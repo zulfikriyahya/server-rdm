@@ -9,6 +9,8 @@ color a
 @REM install git
 if not exist "C:\Program Files\Git\git-bash.exe" (
     winget install --id Git.Git -e --source winget --silent
+echo "Proses instalasi git berhasil, silakan jalankan ulang file rdm.cmd ini dengan 'Run As Administrator'."
+pause
 exit
 )
 
@@ -32,6 +34,7 @@ httpd -k uninstall
 httpd -k install
 httpd -k start
 start http://localhost
+echo "Silakan selesaikan konfigurasi Ioncube Loader dan kembali ke terminal ini.
 
 @REM menginisiasi environtment variabel mariadb (optional)
 setx PATH "%PATH%;C:\Program Files\MariaDB 11.6\bin"
