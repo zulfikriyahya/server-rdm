@@ -1,0 +1,196 @@
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 15628:tid 356] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:/SERVER/PHP/PHP72/ext\\curl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP72/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP72/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:32:49.096381 2024] [mpm_winnt:notice] [pid 15628:tid 356] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/7.2.34 configured -- resuming normal operations
+[Tue Dec 17 00:32:49.096381 2024] [mpm_winnt:notice] [pid 15628:tid 356] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Dec 17 00:32:49.096381 2024] [core:notice] [pid 15628:tid 356] AH00094: Command line: 'C:\\SERVER\\APACHE24\\bin\\httpd.exe -d C:/SERVER/APACHE24'
+[Tue Dec 17 00:32:49.100515 2024] [mpm_winnt:notice] [pid 15628:tid 356] AH00418: Parent: Created child process 16804
+[Tue Dec 17 00:32:49.423313 2024] [ssl:warn] [pid 16804:tid 368] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+Failed loading c:/SERVER/PHP72/ext\ioncube_loader_win_7.2.dll
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:/SERVER/PHP/PHP72/ext\\curl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP72/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP72/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:32:49.447411 2024] [mpm_winnt:notice] [pid 16804:tid 368] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 17 00:33:26.685483 2024] [mpm_winnt:notice] [pid 15628:tid 356] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 17 00:33:28.699939 2024] [mpm_winnt:notice] [pid 16804:tid 368] AH00364: Child: All worker threads have exited.
+[Tue Dec 17 00:33:28.724555 2024] [mpm_winnt:notice] [pid 15628:tid 356] AH00430: Parent: Child process 16804 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 17524:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:/SERVER/PHP/PHP73/ext\\curl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP73/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP73/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:33:35.442699 2024] [mpm_winnt:notice] [pid 17524:tid 348] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/7.3.33 configured -- resuming normal operations
+[Tue Dec 17 00:33:35.442699 2024] [mpm_winnt:notice] [pid 17524:tid 348] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Dec 17 00:33:35.442699 2024] [core:notice] [pid 17524:tid 348] AH00094: Command line: 'C:\\SERVER\\APACHE24\\bin\\httpd.exe -d C:/SERVER/APACHE24'
+[Tue Dec 17 00:33:35.447627 2024] [mpm_winnt:notice] [pid 17524:tid 348] AH00418: Parent: Created child process 9004
+[Tue Dec 17 00:33:35.773989 2024] [ssl:warn] [pid 9004:tid 384] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+Failed loading c:/SERVER/PHP73/ext\ioncube_loader_win_7.3.dll
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:/SERVER/PHP/PHP73/ext\\curl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP73/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP73/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:33:35.797306 2024] [mpm_winnt:notice] [pid 9004:tid 384] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 17 00:36:07.243819 2024] [mpm_winnt:notice] [pid 17524:tid 348] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 17 00:36:09.255980 2024] [mpm_winnt:notice] [pid 9004:tid 384] AH00364: Child: All worker threads have exited.
+[Tue Dec 17 00:36:09.279029 2024] [mpm_winnt:notice] [pid 17524:tid 348] AH00430: Parent: Child process 9004 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 13088:tid 364] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:/SERVER/PHP/PHP73/ext\\curl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP73/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP73/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:36:11.471202 2024] [mpm_winnt:notice] [pid 13088:tid 364] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/7.3.33 configured -- resuming normal operations
+[Tue Dec 17 00:36:11.471202 2024] [mpm_winnt:notice] [pid 13088:tid 364] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Dec 17 00:36:11.471202 2024] [core:notice] [pid 13088:tid 364] AH00094: Command line: 'C:\\SERVER\\APACHE24\\bin\\httpd.exe -d C:/SERVER/APACHE24'
+[Tue Dec 17 00:36:11.475202 2024] [mpm_winnt:notice] [pid 13088:tid 364] AH00418: Parent: Created child process 3420
+[Tue Dec 17 00:36:11.778898 2024] [ssl:warn] [pid 3420:tid 376] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+Failed loading c:/SERVER/PHP73/ext\ioncube_loader_win_7.3.dll
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:/SERVER/PHP/PHP73/ext\\curl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP73/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP73/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:36:11.801810 2024] [mpm_winnt:notice] [pid 3420:tid 376] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 17 00:38:03.686770 2024] [mpm_winnt:notice] [pid 13088:tid 364] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 17 00:38:05.710201 2024] [mpm_winnt:notice] [pid 3420:tid 376] AH00364: Child: All worker threads have exited.
+[Tue Dec 17 00:38:05.733721 2024] [mpm_winnt:notice] [pid 13088:tid 364] AH00430: Parent: Child process 3420 exited successfully.
+[Tue Dec 17 00:38:06.589398 2024] [ssl:warn] [pid 8608:tid 352] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:/SERVER/PHP/PHP73/ext\\curl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP73/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP73/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:38:06.613719 2024] [mpm_winnt:notice] [pid 8608:tid 352] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/7.3.33 configured -- resuming normal operations
+[Tue Dec 17 00:38:06.613719 2024] [mpm_winnt:notice] [pid 8608:tid 352] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Dec 17 00:38:06.613719 2024] [core:notice] [pid 8608:tid 352] AH00094: Command line: 'C:\\SERVER\\APACHE24\\bin\\httpd.exe -d C:/SERVER/APACHE24'
+[Tue Dec 17 00:38:06.618189 2024] [mpm_winnt:notice] [pid 8608:tid 352] AH00418: Parent: Created child process 15228
+[Tue Dec 17 00:38:06.938344 2024] [ssl:warn] [pid 15228:tid 372] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+Failed loading c:/SERVER/PHP73/ext\ioncube_loader_win_7.3.dll
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:/SERVER/PHP/PHP73/ext\\curl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP73/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP73/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:38:06.962886 2024] [mpm_winnt:notice] [pid 15228:tid 372] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 17 00:38:41.031336 2024] [mpm_winnt:notice] [pid 8608:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 17 00:38:43.042659 2024] [mpm_winnt:notice] [pid 15228:tid 372] AH00364: Child: All worker threads have exited.
+[Tue Dec 17 00:38:43.065882 2024] [mpm_winnt:notice] [pid 8608:tid 352] AH00430: Parent: Child process 15228 exited successfully.
+[Tue Dec 17 00:38:43.912789 2024] [ssl:warn] [pid 19248:tid 356] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:/SERVER/PHP/PHP73/ext\\curl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP73/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP73/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:38:43.934281 2024] [mpm_winnt:notice] [pid 19248:tid 356] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/7.3.33 configured -- resuming normal operations
+[Tue Dec 17 00:38:43.934281 2024] [mpm_winnt:notice] [pid 19248:tid 356] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Dec 17 00:38:43.934281 2024] [core:notice] [pid 19248:tid 356] AH00094: Command line: 'C:\\SERVER\\APACHE24\\bin\\httpd.exe -d C:/SERVER/APACHE24'
+[Tue Dec 17 00:38:43.938921 2024] [mpm_winnt:notice] [pid 19248:tid 356] AH00418: Parent: Created child process 18336
+[Tue Dec 17 00:38:44.260395 2024] [ssl:warn] [pid 18336:tid 368] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+Failed loading c:/SERVER/PHP73/ext\ioncube_loader_win_7.3.dll
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:/SERVER/PHP/PHP73/ext\\curl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP73/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP73/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:38:44.284243 2024] [mpm_winnt:notice] [pid 18336:tid 368] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 17 00:40:37.192972 2024] [mpm_winnt:notice] [pid 19248:tid 356] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 17 00:40:39.212475 2024] [mpm_winnt:notice] [pid 18336:tid 368] AH00364: Child: All worker threads have exited.
+[Tue Dec 17 00:40:39.234515 2024] [mpm_winnt:notice] [pid 19248:tid 356] AH00430: Parent: Child process 18336 exited successfully.
+[Tue Dec 17 00:40:40.059144 2024] [ssl:warn] [pid 18520:tid 372] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:/SERVER/PHP/PHP73/ext\\curl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP73/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP73/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:40:40.513806 2024] [mpm_winnt:notice] [pid 18520:tid 372] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/7.3.33 configured -- resuming normal operations
+[Tue Dec 17 00:40:40.513806 2024] [mpm_winnt:notice] [pid 18520:tid 372] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Dec 17 00:40:40.513806 2024] [core:notice] [pid 18520:tid 372] AH00094: Command line: 'C:\\SERVER\\APACHE24\\bin\\httpd.exe -d C:/SERVER/APACHE24'
+[Tue Dec 17 00:40:40.518354 2024] [mpm_winnt:notice] [pid 18520:tid 372] AH00418: Parent: Created child process 16536
+[Tue Dec 17 00:40:40.842519 2024] [ssl:warn] [pid 16536:tid 344] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:/SERVER/PHP/PHP73/ext\\curl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP73/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP73/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:40:40.890642 2024] [mpm_winnt:notice] [pid 16536:tid 344] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 17 00:43:16.411300 2024] [mpm_winnt:notice] [pid 18520:tid 372] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 17 00:43:18.428154 2024] [mpm_winnt:notice] [pid 16536:tid 344] AH00364: Child: All worker threads have exited.
+[Tue Dec 17 00:43:18.450295 2024] [mpm_winnt:notice] [pid 18520:tid 372] AH00430: Parent: Child process 16536 exited successfully.
+[Tue Dec 17 00:43:19.296264 2024] [ssl:warn] [pid 5376:tid 348] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:/SERVER/PHP/PHP73/ext\\curl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP73/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP73/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:43:19.376370 2024] [mpm_winnt:notice] [pid 5376:tid 348] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/7.3.33 configured -- resuming normal operations
+[Tue Dec 17 00:43:19.376370 2024] [mpm_winnt:notice] [pid 5376:tid 348] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Dec 17 00:43:19.376370 2024] [core:notice] [pid 5376:tid 348] AH00094: Command line: 'C:\\SERVER\\APACHE24\\bin\\httpd.exe -d C:/SERVER/APACHE24'
+[Tue Dec 17 00:43:19.381819 2024] [mpm_winnt:notice] [pid 5376:tid 348] AH00418: Parent: Created child process 16096
+[Tue Dec 17 00:43:19.712751 2024] [ssl:warn] [pid 16096:tid 364] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:/SERVER/PHP/PHP73/ext\\curl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP73/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP73/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:43:19.757836 2024] [mpm_winnt:notice] [pid 16096:tid 364] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 17 00:44:16.186799 2024] [mpm_winnt:notice] [pid 5376:tid 348] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 17 00:44:18.215904 2024] [mpm_winnt:notice] [pid 16096:tid 364] AH00364: Child: All worker threads have exited.
+[Tue Dec 17 00:44:18.237919 2024] [mpm_winnt:notice] [pid 5376:tid 348] AH00430: Parent: Child process 16096 exited successfully.
+[Tue Dec 17 00:44:19.064839 2024] [ssl:warn] [pid 7368:tid 360] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:/SERVER/PHP/PHP73/ext\\curl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP73/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP73/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:44:19.111995 2024] [mpm_winnt:notice] [pid 7368:tid 360] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/7.3.33 configured -- resuming normal operations
+[Tue Dec 17 00:44:19.111995 2024] [mpm_winnt:notice] [pid 7368:tid 360] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Dec 17 00:44:19.111995 2024] [core:notice] [pid 7368:tid 360] AH00094: Command line: 'C:\\SERVER\\APACHE24\\bin\\httpd.exe -d C:/SERVER/APACHE24'
+[Tue Dec 17 00:44:19.115974 2024] [mpm_winnt:notice] [pid 7368:tid 360] AH00418: Parent: Created child process 14980
+[Tue Dec 17 00:44:19.430721 2024] [ssl:warn] [pid 14980:tid 400] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:/SERVER/PHP/PHP73/ext\\curl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP73/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP73/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP73/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:44:19.479524 2024] [mpm_winnt:notice] [pid 14980:tid 400] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 17 00:45:58.555042 2024] [mpm_winnt:notice] [pid 7368:tid 360] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 17 00:46:00.581360 2024] [mpm_winnt:notice] [pid 14980:tid 400] AH00364: Child: All worker threads have exited.
+[Tue Dec 17 00:46:00.602848 2024] [mpm_winnt:notice] [pid 7368:tid 360] AH00430: Parent: Child process 14980 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 14824:tid 328] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP72/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP72/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:46:03.583290 2024] [mpm_winnt:notice] [pid 14824:tid 328] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/7.2.34 configured -- resuming normal operations
+[Tue Dec 17 00:46:03.583290 2024] [mpm_winnt:notice] [pid 14824:tid 328] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Dec 17 00:46:03.583290 2024] [core:notice] [pid 14824:tid 328] AH00094: Command line: 'C:\\SERVER\\APACHE24\\bin\\httpd.exe -d C:/SERVER/APACHE24'
+[Tue Dec 17 00:46:03.587295 2024] [mpm_winnt:notice] [pid 14824:tid 328] AH00418: Parent: Created child process 17836
+[Tue Dec 17 00:46:03.918329 2024] [ssl:warn] [pid 17836:tid 360] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP72/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP72/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:46:03.966254 2024] [mpm_winnt:notice] [pid 17836:tid 360] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 17 00:47:00.874571 2024] [mpm_winnt:notice] [pid 14824:tid 328] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 17 00:47:03.113856 2024] [mpm_winnt:notice] [pid 17836:tid 360] AH00364: Child: All worker threads have exited.
+[Tue Dec 17 00:47:03.137163 2024] [mpm_winnt:notice] [pid 14824:tid 328] AH00430: Parent: Child process 17836 exited successfully.
+[Tue Dec 17 00:47:03.756476 2024] [ssl:warn] [pid 15648:tid 376] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:/SERVER/PHP/PHP72/ext\\curl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP72/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP72/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:47:03.832429 2024] [mpm_winnt:notice] [pid 15648:tid 376] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/7.2.34 configured -- resuming normal operations
+[Tue Dec 17 00:47:03.832429 2024] [mpm_winnt:notice] [pid 15648:tid 376] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Dec 17 00:47:03.832429 2024] [core:notice] [pid 15648:tid 376] AH00094: Command line: 'C:\\SERVER\\APACHE24\\bin\\httpd.exe -d C:/SERVER/APACHE24'
+[Tue Dec 17 00:47:03.838448 2024] [mpm_winnt:notice] [pid 15648:tid 376] AH00418: Parent: Created child process 14164
+[Tue Dec 17 00:47:04.158220 2024] [ssl:warn] [pid 14164:tid 344] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:/SERVER/PHP/PHP72/ext\\curl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP72/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP72/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:47:04.205137 2024] [mpm_winnt:notice] [pid 14164:tid 344] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 17 00:47:19.125908 2024] [mpm_winnt:notice] [pid 15648:tid 376] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 17 00:47:23.421433 2024] [mpm_winnt:notice] [pid 14164:tid 344] AH00364: Child: All worker threads have exited.
+[Tue Dec 17 00:47:23.442818 2024] [mpm_winnt:notice] [pid 15648:tid 376] AH00430: Parent: Child process 14164 exited successfully.
+[Tue Dec 17 00:47:24.034957 2024] [ssl:warn] [pid 13120:tid 356] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:/SERVER/PHP/PHP72/ext\\curl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP72/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP72/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:47:24.081363 2024] [mpm_winnt:notice] [pid 13120:tid 356] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/7.2.34 configured -- resuming normal operations
+[Tue Dec 17 00:47:24.081363 2024] [mpm_winnt:notice] [pid 13120:tid 356] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Dec 17 00:47:24.081363 2024] [core:notice] [pid 13120:tid 356] AH00094: Command line: 'C:\\SERVER\\APACHE24\\bin\\httpd.exe -d C:/SERVER/APACHE24'
+[Tue Dec 17 00:47:24.086364 2024] [mpm_winnt:notice] [pid 13120:tid 356] AH00418: Parent: Created child process 9768
+[Tue Dec 17 00:47:24.403529 2024] [ssl:warn] [pid 9768:tid 200] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:/SERVER/PHP/PHP72/ext\\curl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_curl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'intl' (tried: C:/SERVER/PHP/PHP72/ext\\intl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_intl.dll (The specified module could not be found.)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:/SERVER/PHP/PHP72/ext\\openssl (The specified module could not be found.), C:/SERVER/PHP/PHP72/ext\\php_openssl.dll (The specified module could not be found.)) in Unknown on line 0
+[Tue Dec 17 00:47:24.455103 2024] [mpm_winnt:notice] [pid 9768:tid 200] AH00354: Child: Starting 64 worker threads.
+[Tue Dec 17 00:49:59.488421 2024] [mpm_winnt:notice] [pid 13120:tid 356] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Dec 17 00:50:01.507704 2024] [mpm_winnt:notice] [pid 9768:tid 200] AH00364: Child: All worker threads have exited.
+[Tue Dec 17 00:50:01.529801 2024] [mpm_winnt:notice] [pid 13120:tid 356] AH00430: Parent: Child process 9768 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+sl:warn] [pid 13040:tid 368] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Dec 17 00:50:03.990280 2024] [mpm_winnt:notice] [pid 13040:tid 368] AH00455: Apache/2.4.62 (Win64) OpenSSL/3.1.7 PHP/7.2.34 configured -- resuming normal operations
+[Tue Dec 17 00:50:03.990280 2024] [mpm_winnt:notice] [pid 13040:tid 368] AH00456: Apache Lounge VS17 Server built: Sep  4 2024 10:31:52
+[Tue Dec 17 00:50:03.990280 2024] [core:notice] [pid 13040:tid 368] AH00094: Command line: 'C:\\SERVER\\APACHE24\\bin\\httpd.exe -d C:/SERVER/APACHE24'
+[Tue Dec 17 00:50:03.994988 2024] [mpm_winnt:notice] [pid 13040:tid 368] AH00418: Parent: Created child process 3652
+[Tue Dec 17 00:50:04.313884 2024] [ssl:warn] [pid 3652:tid 364] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Dec 17 00:50:04.365117 2024] [mpm_winnt:notice] [pid 3652:tid 364] AH00354: Child: Starting 64 worker threads.
