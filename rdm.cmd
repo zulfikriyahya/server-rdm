@@ -39,6 +39,9 @@ httpd -k install
 httpd -k start
 start http://localhost
 
+pause
+start http://localhost/rdm
+
 @REM menginisiasi environtment variabel mariadb (optional)
 setx PATH "%PATH%;C:\Program Files\MariaDB 11.6\bin"
 
@@ -51,7 +54,5 @@ if not exist "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Program
     echo exit >> "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\rdm.cmd"
     )
 
-    echo Penyiapan aplikasi selesai. Silakan simpan pekerjaan anda, komputer akan restart dalam waktu 1 menit.
-    restart komputer
-    shutdown -r -t 60
+    echo Penyiapan aplikasi selesai.
     pause
