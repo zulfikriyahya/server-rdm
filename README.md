@@ -1,3 +1,4 @@
+```bash
 @REM install mariadb 11 manual
 
 @echo off
@@ -48,3 +49,4 @@ if not exist "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Program
 
     @REM menghapus file installer
     del rdm.cmd
+```
