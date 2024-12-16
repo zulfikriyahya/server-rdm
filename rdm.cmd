@@ -52,6 +52,6 @@ if not exist "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Program
     )
 
     echo Penyiapan aplikasi selesai. Silakan simpan pekerjaan anda, komputer akan restart dalam waktu 1 menit.
-    @REM restart komputer
-    @REM shutdown -r -t 60
+    restart komputer
+    shutdown -r -t 60
     pause
