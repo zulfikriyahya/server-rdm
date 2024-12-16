@@ -17,7 +17,9 @@ cd \
 if not exist "C:\server-rdm" (
     git clone https://github.com/zulfikriyahya/server-rdm.git
 )
-
+start Composer-Setup.exe
+pause
+echo "Silakan selesaikan install Composer dan kembali ke terminal ini."
 @REM menyembunyikan folder server-rdm
 attrib +h "C:\server-rdm"
 
