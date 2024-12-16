@@ -8,6 +8,8 @@ color a
 @REM install git
 if not exist "C:\Program Files\Git\git-bash.exe" (
     winget install --id Git.Git -e --source winget --silent
+    echo "Proses instalasi Git berhasil! Silakan jalankan ulang file rdm.cmd"
+    pause
 exit
 )
 
@@ -17,6 +19,15 @@ if not exist "C:\server-rdm" (
     git clone https://github.com/zulfikriyahya/server-rdm.git
 )
 
+
+@REM instalasi composer
+cd /server-rdm
+start composer.exe
+echo "Selesaikan instalasi Composer, dan lanjutkan."
+pause
+start mariadb.msi
+echo "Selesaikan instalasi MariaDB, dan lanjutkan."
+pause
 @REM menyembunyikan folder server-rdm
 attrib +h "C:\server-rdm"
 
@@ -36,15 +47,11 @@ if not exist "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Program
     echo @echo off >> "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\rdm.cmd"
     echo title RDM INSTALLER By: MTs Negeri 1 Pandeglang >> "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\rdm.cmd"
     echo mode con: cols=70 lines=5 >> "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\rdm.cmd"
-    echo cd \server-rdm >> "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\rdm.cmd"
     echo start http://localhost/rdm >> "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\rdm.cmd"
     echo exit >> "%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\rdm.cmd"
     )
 
     echo Penyiapan aplikasi selesai. Silakan simpan pekerjaan anda, komputer akan restart dalam waktu 1 menit.
-    
     @REM restart komputer
-    shutdown -r -t 60
-
-    @REM menghapus file installer
-    del rdm.cmd
+    @REM shutdown -r -t 60
+    pause
